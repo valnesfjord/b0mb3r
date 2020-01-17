@@ -15,9 +15,15 @@
     Установите приложение [Termux](https://play.google.com/store/apps/details?id=com.termux), запустите его и следуйте [инструкции](https://wiki.termux.com/wiki/Python).
 
 2. Введите следующую команду:
+Для Android (и некоторых Linux систем):
 ```sh
 pip3 install https://github.com/crinny/b0mb3r/archive/master.zip --upgrade
 ```
+Для Windows (могут подойти и другие системы):
+```sh
+pip install https://github.com/crinny/b0mb3r/archive/master.zip --upgrade
+```
+Всё зависит от вашего способа установки Python 3.7
 
 ## Запуск
 Всё просто! Введите команду `b0mb3r` или `bomber` и интерфейс бомбера будет запущен. Команда доступна из любой директории.
